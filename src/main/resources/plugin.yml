@@ -1,0 +1,10 @@
+name: Mob_Jython
+version: '1.0.0'
+main: org.dw363.jython.Jython
+api-version: '1.21'
+load: STARTUP
+description: Плагин созданный на python с помощью jython, лоадер его написан на java. Код .py добавляет команду, при вводе которой игрок спавнит 3 рандомных мобов, а именно свинью, корову, овцу.
+commands:
+  hello:
+    description: Спавнит 3 рандомных мобов, а именно свинью, корову, овцу.
+    usage: /hello
